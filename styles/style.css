@@ -1,1 +1,135 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__menu {
+  margin: 133px 37px 138px 50px;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 29px;
+  list-style: circle;
+}
+
+.header__links-list-item {
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: flex-start;
+  max-width: 240px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.header__address {
+  margin-right: 50px;
+}
+
+.address-number,
+.address-email {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.cover__title {
+  display: flex;
+  margin: 165px 50px 118px 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter-spacing-extended {
+  z-index: 1;
+  letter-spacing: 30px;
+}
+
+.aligned-text_left {
+  align-self: flex-start;
+}
+
+.aligned-text_center {
+  align-self: center;
+}
+
+.aligned-text_right {
+  align-self: flex-end;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 11px;
+}
+
+.cover__description-text {
+  z-index: 1;
+  padding-right: 107px;
+  font-weight: 500;
+}
+
+.bet-button {
+  z-index: 1;
+  border: 1px solid #fff;
+  padding: 12px 32px 11px 31px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
+}
