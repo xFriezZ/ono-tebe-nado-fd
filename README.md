@@ -1,1 +1,1 @@
-https://github.com/xFriezZ/ono-tebe-nado
+https://github.com/xFriezZ/ono-tebe-nado-fd
