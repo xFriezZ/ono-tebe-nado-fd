@@ -129,6 +129,7 @@
   margin-top: -13px;
   color: #fff;
   font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 19px;
@@ -137,7 +138,6 @@
 .cover__description-text {
   z-index: 1;
   padding-right: 107px;
-  font-weight: 400;
   line-height: 1.27;
 }
 
@@ -146,6 +146,7 @@
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   background-color: transparent;
@@ -297,6 +298,7 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
+  margin-bottom: 82px;
 }
 
 .footer__address {
