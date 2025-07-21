@@ -49,8 +49,8 @@
 }
 
 .header__address {
-  margin-right: 50px;
   margin-top: -8.8px;
+  margin-right: 50px;
 }
 
 .address-number,
@@ -284,7 +284,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
-
 }
 
 .footer {
@@ -295,9 +294,9 @@
 }
 
 .footer__address {
-  margin-left: 50px;
-  margin-top: -3px;
   max-width: 265px;
+  margin-top: -3px;
+  margin-left: 50px;
 }
 
 .footer__menu {
@@ -307,9 +306,9 @@
 }
 
 .footer__menu-list {
+  margin-right: 15px;
   text-align: center;
   list-style: none;
-  margin-right: 15px;
 }
 
 .footer__menu-link {
