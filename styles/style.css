@@ -16,6 +16,7 @@
 
 .header__links-list-item {
   color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -42,6 +43,7 @@
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -53,11 +55,9 @@
   margin-right: 50px;
 }
 
-.address-number,
-.address-email {
+.address__item {
   border-bottom: 1px solid #000;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 .cover {
@@ -74,8 +74,7 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -86,6 +85,7 @@
 .cover__title {
   margin: 165px 50px 118px 50px;
   color: #fff;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 1.15;
@@ -128,6 +128,7 @@
   align-items: center;
   margin-top: -13px;
   color: #fff;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 19px;
@@ -162,6 +163,7 @@
   align-items: flex-start;
   margin-bottom: 27px;
   margin-left: 40px;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -214,6 +216,7 @@
   width: 254px;
   margin-top: 48px;
   color: #fff;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
@@ -226,14 +229,17 @@
   width: 254px;
   margin-bottom: 48px;
   color: #fff;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
 }
 
 .lots__look-more-link {
+  max-width: fit-content;
   margin-top: 31px;
   margin-left: 40px;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -241,7 +247,6 @@
 .about__column {
   display: grid;
   grid-template-columns: 334px 1fr;
-  min-height: 595px;
   margin: 0 24px 180px;
 }
 
@@ -271,6 +276,7 @@
 .about__title {
   padding-bottom: 100px;
   color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -281,6 +287,7 @@
   flex-direction: column;
   gap: 25px;
   color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
@@ -290,18 +297,15 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
-  min-height: 180px;
 }
 
 .footer__address {
   max-width: 265px;
-  margin-top: -3px;
   margin-left: 50px;
 }
 
 .footer__menu {
   width: 164px;
-  height: 64px;
   list-style: none;
 }
 
@@ -313,6 +317,7 @@
 
 .footer__menu-link {
   color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-decoration: underline;
@@ -326,7 +331,6 @@
   display: flex;
   gap: 48px;
   width: 240px;
-  height: 48px;
   margin-right: 50px;
   list-style: none;
 }
