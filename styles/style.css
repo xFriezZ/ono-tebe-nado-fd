@@ -25,6 +25,15 @@
   list-style: none;
 }
 
+.header__link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.header__link_active {
+  border: none;
+}
+
 .header__logo {
   display: block;
   width: 148px;
@@ -83,6 +92,7 @@
 }
 
 .cover__title {
+  z-index: 0;
   margin: 165px 50px 118px 50px;
   color: #fff;
   font-family: Raleway, Arial, sans-serif;
@@ -100,7 +110,6 @@
 }
 
 .letter-spacing-extended {
-  z-index: 1;
   letter-spacing: 30px;
 }
 
