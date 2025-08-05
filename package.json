@@ -1,0 +1,30 @@
+{
+  "name": "ono-tebe-nado-fd",
+  "version": "1.0.0",
+  "description": "https://github.com/xFriezZ/ono-tebe-nado-fd",
+  "homepage": "https://github.com/xFriezZ/ono-tebe-nado-fd#readme",
+  "bugs": {
+    "url": "https://github.com/xFriezZ/ono-tebe-nado-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFriezZ/ono-tebe-nado-fd.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Привет!\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "stylelint \"**/*.css\" --fix",
+    "checkAll": "npm run check && npm run format",
+    "fixAll": "npm run lint && npm run lintfix"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.0"
+  }
+}

@@ -5,7 +5,7 @@
 }
 
 .header__menu {
-  margin: 134px 0px 138px 50px;
+  margin: 134px 0 138px 50px;
 }
 
 .header__menu-list {
@@ -26,8 +26,8 @@
 }
 
 .header__link {
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -93,7 +93,7 @@
 
 .cover__title {
   z-index: 0;
-  margin: 165px 50px 118px 50px;
+  margin: 165px 50px 118px;
   color: #fff;
   font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
